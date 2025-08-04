@@ -120,6 +120,29 @@ uv run mcp run main.py
   ```bash
   deactivate
   ```
+Summery
+
+# 1. Create and activate virtual environment
+python3 -m venv .venv
+source .venv/bin/activate   # macOS/Linux
+# .venv\Scripts\Activate.ps1   # Windows PowerShell
+
+# 2. Upgrade pip and install base dependencies
+pip install --upgrade pip
+pip install mcp uv typer
+
+# 3. Initialize MCP project
+uv init MCP_Server
+cd MCP_Server
+
+# 4. Add MCP CLI support
+uv add "mcp[cli]"
+
+# 5. Install your MCP server (using main.py)
+uv run mcp install main.py
+
+# 6. Run the MCP server
+uv run mcp run main.py
 
 ---
 
