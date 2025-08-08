@@ -120,6 +120,13 @@ uv run mcp run main.py
   ```bash
   deactivate
   ```
+## 🎥 Working Demo Video
+
+Watch the final demonstration of the **Todo MCP Server** project here:  
+[![Demo Video](https://img.youtube.com/vi/Pri1VnRIZ_U/0.jpg)](https://youtu.be/Pri1VnRIZ_U)
+
+Or click this link: [https://youtu.be/Pri1VnRIZ_U](https://youtu.be/Pri1VnRIZ_U)
+
 Summery
 
 # 1. Create and activate virtual environment
